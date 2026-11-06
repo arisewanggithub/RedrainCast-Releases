@@ -1,19 +1,21 @@
 # RedrainCast downloads
 
-## Current testing release: v0.4.10-rc.1
+## Current testing release: v0.4.10-rc.2
 
-**[Open the published release and its assets](https://github.com/arisewanggithub/RedrainCast-Releases/releases/tag/v0.4.10-rc.1)**
+**[Open the published release and its assets](https://github.com/arisewanggithub/RedrainCast-Releases/releases/tag/v0.4.10-rc.2)**
 
-**[Download the universal Android APK](https://github.com/arisewanggithub/RedrainCast-Releases/releases/download/v0.4.10-rc.1/RedrainCast-0.4.10-rc.1.apk)**
+**[Download the universal Android APK](https://github.com/arisewanggithub/RedrainCast-Releases/releases/download/v0.4.10-rc.2/RedrainCast-0.4.10-rc.2.apk)**
 
-Previous testing release: [v0.4.6 release and assets](https://github.com/arisewanggithub/RedrainCast-Releases/releases/tag/v0.4.6) / [APK](https://github.com/arisewanggithub/RedrainCast-Releases/releases/download/v0.4.6/RedrainCast-0.4.6.apk).
+Previous testing release: [v0.4.10-rc.1 release and assets](https://github.com/arisewanggithub/RedrainCast-Releases/releases/tag/v0.4.10-rc.1) / [APK](https://github.com/arisewanggithub/RedrainCast-Releases/releases/download/v0.4.10-rc.1/RedrainCast-0.4.10-rc.1.apk).
+Historical preview: [v0.4.6 release and assets](https://github.com/arisewanggithub/RedrainCast-Releases/releases/tag/v0.4.6).
 
 This is a published **prerelease**, not merely a Git tag. GitHub's repository
 sidebar and `/releases/latest` do not reliably surface testing-only releases.
 Use the direct links above or the [full release list](https://github.com/arisewanggithub/RedrainCast-Releases/releases).
 The release contains the APK, `SHA256SUMS`, signing certificate, licenses and
-matching LGPL relink kit. First-rotation rendering and JMGO early-disconnect issues
-remain unresolved; native audio-startup acceptance is pending. Stable-only update
+matching LGPL relink kit. This RC respects landscape-only and portrait-only receiver
+screens. Its new fixed-axis guard still needs a physical projector retry.
+First-rotation rendering remains unresolved; native audio-startup acceptance is pending. Stable-only update
 checks intentionally do not offer this RC. Read the release notes before installing.
 
 Public Android APKs, checksums, signing certificates, notices and LGPL relink
