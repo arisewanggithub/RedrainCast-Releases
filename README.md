@@ -9,12 +9,12 @@
 Previous testing release: [v0.4.10-rc.2 release and assets](https://github.com/arisewanggithub/RedrainCast-Releases/releases/tag/v0.4.10-rc.2) / [APK](https://github.com/arisewanggithub/RedrainCast-Releases/releases/download/v0.4.10-rc.2/RedrainCast-0.4.10-rc.2.apk).
 Historical preview: [v0.4.6 release and assets](https://github.com/arisewanggithub/RedrainCast-Releases/releases/tag/v0.4.6).
 
-This is an owner-authorized **stable release**, following a successful projector
-connection retry on RC2. It is available through GitHub's `/releases/latest`.
+This is a **stable release**, including a fix for an orientation-triggered
+receiver connection failure. It is available through GitHub's `/releases/latest`.
 Use the direct links above or the [full release list](https://github.com/arisewanggithub/RedrainCast-Releases/releases).
 The release contains the APK, `SHA256SUMS`, signing certificate, licenses and
 matching LGPL relink kit. It respects landscape-only and portrait-only receiver
-screens; the user confirmed the projector connection issue is fixed.
+screens and includes the orientation-related connection fix.
 First-rotation rendering and controlled-shutdown reporting remain known issues;
 dedicated native audio-startup acceptance is not newly completed. Stable-only
 startup checks can offer this release, including to 0.4.10 RC installations.
