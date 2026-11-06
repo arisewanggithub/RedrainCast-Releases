@@ -1,34 +1,36 @@
 # RedrainCast downloads
 
-## Current testing release: v0.4.10-rc.2
+## Current stable release: v0.4.10
 
-**[Open the published release and its assets](https://github.com/arisewanggithub/RedrainCast-Releases/releases/tag/v0.4.10-rc.2)**
+**[Open the published release and its assets](https://github.com/arisewanggithub/RedrainCast-Releases/releases/tag/v0.4.10)**
 
-**[Download the universal Android APK](https://github.com/arisewanggithub/RedrainCast-Releases/releases/download/v0.4.10-rc.2/RedrainCast-0.4.10-rc.2.apk)**
+**[Download the universal Android APK](https://github.com/arisewanggithub/RedrainCast-Releases/releases/download/v0.4.10/RedrainCast-0.4.10.apk)**
 
-Previous testing release: [v0.4.10-rc.1 release and assets](https://github.com/arisewanggithub/RedrainCast-Releases/releases/tag/v0.4.10-rc.1) / [APK](https://github.com/arisewanggithub/RedrainCast-Releases/releases/download/v0.4.10-rc.1/RedrainCast-0.4.10-rc.1.apk).
+Previous testing release: [v0.4.10-rc.2 release and assets](https://github.com/arisewanggithub/RedrainCast-Releases/releases/tag/v0.4.10-rc.2) / [APK](https://github.com/arisewanggithub/RedrainCast-Releases/releases/download/v0.4.10-rc.2/RedrainCast-0.4.10-rc.2.apk).
 Historical preview: [v0.4.6 release and assets](https://github.com/arisewanggithub/RedrainCast-Releases/releases/tag/v0.4.6).
 
-This is a published **prerelease**, not merely a Git tag. GitHub's repository
-sidebar and `/releases/latest` do not reliably surface testing-only releases.
+This is an owner-authorized **stable release**, following a successful projector
+connection retry on RC2. It is available through GitHub's `/releases/latest`.
 Use the direct links above or the [full release list](https://github.com/arisewanggithub/RedrainCast-Releases/releases).
 The release contains the APK, `SHA256SUMS`, signing certificate, licenses and
-matching LGPL relink kit. This RC respects landscape-only and portrait-only receiver
-screens. Its new fixed-axis guard still needs a physical projector retry.
-First-rotation rendering remains unresolved; native audio-startup acceptance is pending. Stable-only update
-checks intentionally do not offer this RC. Read the release notes before installing.
+matching LGPL relink kit. It respects landscape-only and portrait-only receiver
+screens; the user confirmed the projector connection issue is fixed.
+First-rotation rendering and controlled-shutdown reporting remain known issues;
+dedicated native audio-startup acceptance is not newly completed. Stable-only
+startup checks can offer this release, including to 0.4.10 RC installations.
+Read the release notes before installing.
 
 Public Android APKs, checksums, signing certificates, notices and LGPL relink
 materials belong in this repository. Application source remains private; the
 automatic GitHub source archives contain only this public download documentation.
 
-Testing prereleases are listed under
+Stable releases and testing previews are listed under
 [Releases](https://github.com/arisewanggithub/RedrainCast-Releases/releases).
 Every release requires explicit source and asset review, production signing
 and exact-build LGPL relink materials. Drafts are not public downloads;
 nothing automatically publishes a stable release.
 
-## Download and verify testing releases
+## Download and verify releases
 
 - Download the universal `RedrainCast-<version>.apk` from **Releases**. It supports
   Android 11/API 30 or newer on arm64-v8a, armeabi-v7a and x86_64.
