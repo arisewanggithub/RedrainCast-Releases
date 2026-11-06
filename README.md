@@ -1,10 +1,23 @@
 # RedrainCast downloads
 
+## Current testing release: v0.4.6
+
+**[Open the published release and its assets](https://github.com/arisewanggithub/RedrainCast-Releases/releases/tag/v0.4.6)**
+
+**[Download the universal Android APK](https://github.com/arisewanggithub/RedrainCast-Releases/releases/download/v0.4.6/RedrainCast-0.4.6.apk)**
+
+This is a published **prerelease**, not merely a Git tag. GitHub's repository
+sidebar and `/releases/latest` do not reliably surface testing-only releases.
+Use the direct links above or the [full release list](https://github.com/arisewanggithub/RedrainCast-Releases/releases).
+The release contains the APK, `SHA256SUMS`, signing certificate, licenses and
+matching LGPL relink kit. Known first-rotation rendering and startup-audio issues
+remain; read the release notes before installing.
+
 Public Android APKs, checksums, signing certificates, notices and LGPL relink
 materials belong in this repository. Application source remains private; the
 automatic GitHub source archives contain only this public download documentation.
 
-Testing prereleases, when available, are listed under
+Testing prereleases are listed under
 [Releases](https://github.com/arisewanggithub/RedrainCast-Releases/releases).
 Every release requires explicit source and asset review, production signing
 and exact-build LGPL relink materials. Drafts are not public downloads;
